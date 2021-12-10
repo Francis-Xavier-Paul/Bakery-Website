@@ -1,0 +1,151 @@
+body{
+    background-color: #202020;
+}
+
+.navbar-brand{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+.navbar-dark .navbar-brand {
+    color: #F3AC48;
+}
+
+.nav-link{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFA931;
+
+}
+.navbar-collapse {
+    justify-content: end;
+}
+
+.navbar{
+    background-color: #202020;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.navbar-nav{
+    padding-right: 70px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px,auto);
+    grid-gap: 2em;
+}
+
+
+
+.container > div{
+    color: #eee;
+
+}
+
+img{
+    max-width: 100%;
+    height:auto;
+}
+
+#maintxt{
+    align-self: center;
+    margin-bottom: 130px;
+}
+
+h1{
+    font-size: 3.5em;
+    margin-bottom: 1.5rem;
+
+}
+
+.btn-primary{
+     background: #FDB857;
+     color: #000;
+     font-size: 1.3rem;
+     border-radius: 25px;
+     border: none;
+     font-weight: 520;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #ac7100;
+    border: none;
+}
+
+.carousel {
+    position: relative;
+    grid-template-columns: 1fr 1.3fr 1fr;
+    grid-gap: 6em;
+    align-items: center;
+}
+
+img {
+    border-radius: 40px;
+}
+
+.img2{
+    grid-row: 1/2;
+}
+
+.EndText > h1{
+    display: grid;
+    font-size: 3.5em;
+    margin-bottom: 1.5rem;
+    color: white;
+
+}
+.information{
+    margin: 1.5em;
+    grid-gap: 7em
+}
+.information > h2, .info > h2{
+    color: #FDB857;
+}
+
+.information > h3, .info > h3{
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+
+.info{
+    align-content: center;
+}
+
+.subtitle{
+    display:grid;
+}
+
+.order{
+    display: grid;
+    grid-template-columns: 1fr .5fr 1fr;
+}
+
+.locs{
+    grid-template-columns: unset;
+    align-self: center;
+    justify-self: center;
+}
+
+.divider{
+    display: block;
+    text-align: center;
+}
+
+.call{
+    grid-template-columns: unset;
+    align-self: center;
+    justify-self: center;
+}
+
+em{
+    font-style: normal;
+    color: #F3AC48;
+}
